@@ -20,11 +20,11 @@
 	. = ..()
 
 /obj/machinery/computer/vertibird_console/attack_hand(mob/user)
-	if(!HAS_TRAIT(user, TRAIT_PILOT))
-		to_chat(user, "<span class='warning'>The Vertibird rejects your authorization codes!</span>")
-		playsound(src, 'sound/effects/alert.ogg', 50, 1)
-		return
-	else
+	// if(!HAS_TRAIT(user, TRAIT_PILOT))
+	// 	to_chat(user, "<span class='warning'>The Vertibird rejects your authorization codes!</span>")
+	// 	playsound(src, 'sound/effects/alert.ogg', 50, 1)
+	// 	return
+	// else
 		GLOB.vertibird:beginFly()
 
 /obj/machinery/computer/camera_advanced/verti
