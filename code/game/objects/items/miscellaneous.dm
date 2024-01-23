@@ -12,6 +12,20 @@
 	w_class = WEIGHT_CLASS_SMALL
 	attack_verb = list("warned", "cautioned", "smashed")
 
+/obj/item/caution_banana
+	desc = "Slippery when dry!"
+	name = "banana sign"
+	icon = 'icons/obj/janitor.dmi'
+	icon_state = "caution_banana"
+	lefthand_file = 'icons/mob/inhands/equipment/custodial_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/custodial_righthand.dmi'
+	force = 1
+	throwforce = 3
+	throw_speed = 2
+	throw_range = 5
+	w_class = WEIGHT_CLASS_SMALL
+	attack_verb = list("warned", "cautioned", "smashed")
+
 /obj/item/choice_beacon
 	name = "choice beacon"
 	desc = "Hey, why are you viewing this?!! Please let Centcom know about this odd occurance."
